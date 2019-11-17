@@ -1,2 +1,5 @@
 # BookWorm
-Extension that helps increase users reading efficiency by applying active reading
+BookWorm is a Chrome Extension, written using Javascript, CSS, and HTML, that is used to implement features for active reading. After being set off by a pop-up that appears, the extension goes through phases that censor parts of the text and summarize passages, for example. This allows the user to go through a more efficient process of looking at a passage and understanding the main points. Overall, the importance of his project lies in how it can assist those with learning disabilities. While it may initially be overwhelming to see [seemingly] endless paragraphs of text, BookWorm breaks them down to provide you with a more user-friendly, understandable series of text. 
+
+In order to run this extension, all the files of code that are included in this repository can be downloaded into the same repository. Then, they can be "unpacked" in the Chrome extensions menu by selecting the directory that the files are located in (on your machine) and the extension will be executeable in your browser. 
+
