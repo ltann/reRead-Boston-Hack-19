@@ -1,14 +1,14 @@
 deepai.setApiKey('ae158c0c-821b-4319-934e-b8556ee36e39');
 
-function summarize(text) {
-    return deepai.callStandardApi("summarization", {
-        text: text
-    }).then(function (result) {
-        return result.output;
-    }).catch(function (error) {
-        console.log(error);
-        return error;
-    });
+function summarize(text){
+  return deepai.callStandardApi("summarization", {
+      text: text
+  }).then(function (result){
+      return result.output;
+  }).catch(function (error){
+      console.log(error);
+      return error;
+  });
 }
 
 function set_phase(int) {
@@ -33,14 +33,14 @@ function censor_paragraph() {
 function summarier() {//turns paragraphs into summary
   console.log("calling summarize");
   let paragraphs = document.getElementsByTagName('p');
-  let summaries = JSON.parse(JSON.stringify(paragraphs));
   for (let i = 0; i < paragraphs.length; ++i){
-    summarize(summaries[i].innerHTML).then(function (result){
-        console.log(result);
-        paragraphs[i].innerHTML = result;
+    summarize(paragraphs[i].innerHTML).then(function (result){
+    console.log(result);
+    paragraphs[i].innerHTML = result;
     })
   }
 };
+
 
 function uncensor_paragraph() {
     let elts = document.getElementsByTagName('p');
@@ -63,10 +63,6 @@ function gotMessage(request, sender, sendResponse) {
             }
         })
     }
-    else if (request === "reset"){
-        uncensor_paragraph();
-        set_phase(0);
-    }
     console.log('because of asynchronous method, this comes up first');
 }
 
@@ -74,7 +70,7 @@ var coll = document.getElementsByTagName('h1');
 var i;
 
 for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function () {
+    coll[i].addEventListener("click", function() {
         this.classList.toggle("active");
         var content = this.nextElementSibling;
         if (content.style.display !== "none") {
