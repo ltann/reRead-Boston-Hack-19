@@ -58,7 +58,7 @@ function gotMessage(request, sender, sendResponse) {
     }
     else if (request === "original"){
         set_phase("original");
-        unloadCSS("collapsible.css");
+        unloadCSS("css/collapsible.css");
     }
     console.log('because of asynchronous method, this comes up first');
 }
@@ -79,15 +79,13 @@ function unloadCSS(file) {
 }
 
 function collapse_paragraph() {
-    loadCSS("collapsible.css");
-    let coll = document.querySelectorAll('h1,h2,h3,h4,h5,h6');
+    loadCSS("css/collapsible.css");
+    let coll = document.querySelectorAll('h1,h2,h3,h4,h5,h6,strong');
     console.log(coll);
     for (let i = 0; i < coll.length; i++) {
         coll[i].classList.add("active");
         coll[i].addEventListener("click", function () {
             let paragraphs = this.nextElementSibling;
-            console.log(paragraphs);
-            console.log(this);
             if (paragraphs.style.maxHeight) {
                 paragraphs.style.maxHeight = null;
             } else {
