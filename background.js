@@ -8,5 +8,3 @@ function buttonClicked(tabs) {// 'tab' is an object with information about the c
 
 
 
-
-
