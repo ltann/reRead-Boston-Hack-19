@@ -1,4 +1,4 @@
-deepai.setApiKey('ae158c0c-821b-4319-934e-b8556ee36e39');
+deepai.setApiKey(API KEY);
 
 function summarize(text) {
     return deepai.callStandardApi("summarization", {
