@@ -1,6 +1,6 @@
 # Future Features and Objectives:
 
-## Objective: BookWorm is an extension helping student study more effectively by creating distraction free, interactive webpages with a portfolio homepage organizer to allow student manage their research data.
+## Objective: BookWorm is an extension helping student study more effectively by turning webpages to become distraction free and interactive with a portfolio homepage organizer to allow student manage their research data.
 
 ### Features:
 - Google Translate
