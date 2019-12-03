@@ -36,7 +36,11 @@ they can be used in the Chrome extensions menu by pressing "Load unpacked" and s
 
 - Search History (for each project/album in Portfolio): you can order history search by tags, number of clicks, time spent on webpages, latest clicked on etc.
 
-- Suggest (new) pages to continue your research when u look into an album.
+- Suggest (new) pages to continue your research when u look into an album. 
+
+- Album has a preview of webpages.
+
+- User clicks on album and it has options to open up the webpages in the album. 
 
 
 
