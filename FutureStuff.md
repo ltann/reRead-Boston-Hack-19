@@ -26,16 +26,20 @@
 - **portfolio homepage** that is customizable, holds albums of webpages that users would like to save. The homepage also displays the most recent user-designated keywords and highlighted notes so that when the user returns to it, they can refresh their memory with the key terms they highlighted as well as the notes and websites that they last went to (along with clickable link to the webpage). The homepage contains also a todo list of the key things the user needs to do or questions the user seeks an answer to.
 
 In portfolio homepage there will be:
-**album/project**
-- Search History (for each project/album in Portfolio): you can order history search by tags, number of clicks, time spent on webpages, latest clicked on, etc.
-
-- When looking into an album, new websites for further research will be suggested. A preview of those websites will be displayed.
-
-- User clicks on album and it has options to open up the webpages in the album. 
+*album/project*:
+   - Search History (for each project/album in Portfolio): you can order history search by tags, number of clicks, time spent on webpages, latest clicked on, etc.
+   - When looking into an album, new websites for further research will be suggested. A preview of those websites will be displayed.
+   - User clicks on album and it has options to open up the webpages in the album. 
+   - Albums can be merged together
 
 - Sessions: when a new tab is created on a separate window, the user can create a new project folder or select an existing project folder and any search queries and pages visited will automatically go to the album of that project in the portfolio homepage. The user can undo this with a hotkey/button.
+   - The new session can be a part of a created project
+   
+- A schedule/calendar?
 
-- The new session can be a part of a created project
+Unlooked benefits of a portfolio homepage:
+- Saves tabs that are open and restores them later, frees up memory and avoids tab cluttering
+- Can be created as a todo list, for work that needs to continue research on/ or a form that u need submitted can be added to this album
 
 When opening a browser:
 - homepage pops up to suggest search queries based on the most recently created tags or web pages visited.
