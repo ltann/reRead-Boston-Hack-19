@@ -1,6 +1,6 @@
 # Future Features and Objectives:
 
-## Objective: BookWorm helps student study more effectively by turning webpages to become distraction free and interactive with a portfolio homepage organizer to allow student manage their research data.
+## Objective: BookWorm helps student study more effectively by turning webpages to become distraction free and interactive with a portfolio homepage organizer to allow student manage their research data and open tabs.
 
 ### Features:
 - Google Translate
@@ -31,18 +31,31 @@ In portfolio homepage there will be:
    - When looking into an album, new websites for further research will be suggested. A preview of those websites will be displayed.
    - User clicks on album and it has options to open up the webpages in the album. 
    - Albums can be merged together
+   - Albums can be organized and reordered around including the tabs itself.
 
 - Sessions: when a new tab is created on a separate window, the user can create a new project folder or select an existing project folder and any search queries and pages visited will automatically go to the album of that project in the portfolio homepage. The user can undo this with a hotkey/button.
    - The new session can be a part of a created project
    
+When opening a browser:
+
+homepage pops up to suggest search queries based on the most recently created tags or web pages visited.
+
+Rants:
 - A schedule/calendar?
+
+- Record the session you are on silently??
+
+- Could even possibly maybe show the current tabs you are on when on the portfolio homepage tab???
+
+- SWITCHING SESSIONS WITH SAVED PROJECTS/ALBUM!!! A functionatlity that can DEFINITELY be part of the web extension
+
+- MUST MAKE IT SUPER DUPER SIMPLE FOR THE USER... Looking at Session Buddy.... simple easy to use and has the desired functionality for the large target audience BUT needs to be saved in the cloud, it is da way (look at SB's review)
 
 Unlooked benefits of a portfolio homepage:
 - Saves tabs that are open and restores them later, frees up memory and avoids tab cluttering
 - Can be created as a todo list, for work that needs to continue research on/ or a form that u need submitted can be added to this album
 
-When opening a browser:
-- homepage pops up to suggest search queries based on the most recently created tags or web pages visited.
+
 
 ### Implementation Details:
 
