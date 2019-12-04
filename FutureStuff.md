@@ -15,7 +15,7 @@
 
 - At the bottom of the webpage will be a section that contains other relevant websites based on the tags highlighted by the user. Don’t open a webpage twice if already opened (arrow pointed up at the bottom to show more relevant website pictures, scroll through to see the relevant next ones.)
 
-- Deleting elements of the page that you don't want.
+- Deleting elements of the page that you don't want.
 
 - Fullscreen Mode
 
